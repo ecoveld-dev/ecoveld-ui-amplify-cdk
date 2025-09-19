@@ -1,0 +1,36 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# CDK output
+cdk.out/
+cdk.context.json
+
+# TypeScript build output
+dist/
+*.js
+*.d.ts
+*.js.map
+
+# Local environment overrides
+.env
+.env.local
+.env.*.local
+
+# IDE/editor cruft
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
